@@ -1,0 +1,104 @@
+/********************************   
+GENERAL
+********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/********************************   
+HEADING
+********************************/
+
+
+/********************************   
+NAVIGATION
+********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 4em;
+  padding: 15px 10px;
+}
+
+/********************************   
+FOOTER
+********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/********************************   
+COLORS
+********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* links */
+a {
+  color: #2A373F;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #2A373F;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #89B2CC;
+}
+
+/* clicking on nav link */
+nav a:active {
+  color: #fff;
+}
+/* Navigation */
+
+#Navigation {
+  font-size: 1em;
+  color: #2A373F;
+}
