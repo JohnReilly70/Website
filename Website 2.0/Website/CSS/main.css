@@ -23,7 +23,7 @@ h3 {
 HEADING
 ********************************/
 
-#logo {
+#logo h1 {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 0 1px 0 #ccc,
@@ -38,15 +38,20 @@ HEADING
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-  color: #000;
 }
 
 header {
   height: 50em;
 }
 
-#button {
+#top, div h2 {
+  font-family: "Advent Pro", cursive;
   text-align: center;
+  color: #5f7c8e;
+}
+
+#button {
+  text-align: center;  
 }
 
 h1 {
@@ -131,28 +136,35 @@ header{
 
 /* nav background on mobil*/
 nav {
-  background: #599a68;
-}
-
-/* logo text */
-h1, h2 {
-  color: #fff;
+  background: #556F7F;
+  border-radius: 100px;
+  background-size: 
 }
 
 /* links */
 a {
-  color: #fff;
+  color: #2A373F;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #2A373F;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #89B2CC;
 }
 
 /* clicking on nav link */
+nav a:active {
+  color: #fff;
+}
 
+#logo h1 {
+  color: #fff;
+}
+
+#button {
+  color: #fff;
+}
