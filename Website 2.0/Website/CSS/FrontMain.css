@@ -1,0 +1,175 @@
+/********************************   
+GENERAL
+********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/********************************   
+HEADING
+********************************/
+
+#logo h1 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+header {
+  height: 50em;
+}
+
+#top, div h2 {
+  font-family: "Advent Pro", cursive;
+  text-align: center;
+  color: #5f7c8e;
+}
+
+#button {
+  text-align: center;  
+}
+
+h1 {
+  padding-top: 6em;
+  margin: 0 0;
+  font-size: 2.5em;
+  font-weight: normal; 
+  line-height: 0.8em;
+}
+
+h2 {
+  padding-top: 0px;
+  font-size: 3em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*******************************
+INDEX PAGE
+*******************************/
+
+
+/********************************   
+NAVIGATION
+********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/********************************   
+FOOTER
+********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/********************************   
+COLORS
+********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Spave Wolve Blue header */
+header{
+  background: linear-gradient(#89B2CC, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #89B2CC url('../img/img.jpg') no-repeat center;
+}
+
+/* nav background on mobil*/
+nav {
+  /*background: #556F7F;*/
+  border-radius: 100px;
+  background-size: 
+}
+
+/* links */
+a {
+  color: #2A373F;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #2A373F;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #89B2CC;
+}
+
+/* clicking on nav link */
+nav a:active {
+  color: #fff;
+}
+
+#logo h1 {
+  color: #fff;
+}
+
+#button {
+  color: #fff;
+}
+
+#Navigation {
+  font-size: 2em;
+  color: #2A373F;
+}
